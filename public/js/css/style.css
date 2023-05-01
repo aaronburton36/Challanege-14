@@ -1,0 +1,70 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  margin: 0 0.5rem;
+}
+
+.posts-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts-list li {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.posts-list li:last-child {
+  border-bottom: none;
+}
+
+.post-meta,
+.comment-meta {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.new-post {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.new-post label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.new-post input,
+.new-post textarea {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.new-post button {
+  background-color: #333;
+  color: #fff;
+}

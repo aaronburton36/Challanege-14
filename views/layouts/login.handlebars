@@ -1,0 +1,15 @@
+<section>
+  <h2>Login</h2>
+  <form class="login-form" action="/api/users/login" method="POST">
+    <div>
+      <label for="username-input-login">Username:</label>
+      <input type="text" id="username-input-login" name="username" required>
+    </div>
+    <div>
+      <label for="password-input-login">Password:</label>
+      <input type="password" id="password-input-login" name="password" required>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <p>Don't have an account? <a href="/signup">Signup here</a>.</p>
+</section>

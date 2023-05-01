@@ -1,0 +1,15 @@
+<section>
+  {{#if posts.length}}
+  <h2>Recent Posts</h2>
+  <ul class="posts-list">
+    {{#each posts}}
+    <li>
+      <h3><a href="/post/{{id}}">{{title}}</a></h3>
+      <p class="post-meta">Posted by {{user.username}} on {{createdAt}}</p>
+    </li>
+    {{/each}}
+  </ul>
+  {{else}}
+  <p>No posts yet. Be the first to <a href="/dashboard">create one</a>!</p>
+  {{/if}}
+</section>
